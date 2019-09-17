@@ -59,13 +59,16 @@
   
     </nav>
     <!-- Input Form -->
-    <div class="text-center"><form>
-        <span id="search-button">Search For: <input id="search-term" type="text"/><input
-            id="add-gif"
-            value="Add Item"
-            type="submit"
-        /></span>
-        </form></div>
+    <!-- <div class="text-center"><form>
+        <span id="search-button">Search For: <input id="search-term" type="text"/><input id="add-gif" value="Add Item" type="submit"/></span>
+        </form></div> -->
+
+<div class="input-group input-group-lg">
+    <div class="input-group-append">
+        <span class="input-group-text" id="inputGroup-sizing-lg search-button">Search For: </span>
+    </div>
+    <input id="search-term" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"/><input id="add-gif" value="Add Item" type="submit"/>
+    </div>
 
     <div class="col" id="buttons"></div>
     <div class="input"></div>
